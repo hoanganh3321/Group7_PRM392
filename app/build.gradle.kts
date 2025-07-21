@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.finalcialmanagement"
+    namespace = "com.example.financialmanagement"
     compileSdk = 35
 
     defaultConfig {

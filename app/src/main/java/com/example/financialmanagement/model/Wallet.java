@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.model;
+package com.example.financialmanagement.model;
 
 public class Wallet {
     private int id;

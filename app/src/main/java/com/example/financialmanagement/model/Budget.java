@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.model;
+package com.example.financialmanagement.model;
 
 public class Budget {
     private int id;
