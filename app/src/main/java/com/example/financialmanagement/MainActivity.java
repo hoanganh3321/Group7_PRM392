@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement;
+package com.example.financialmanagement;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,10 +13,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.finalcialmanagement.R;
-import com.example.finalcialmanagement.db.DBHelper;
-import com.example.finalcialmanagement.activity.LoginActivity;
-import com.example.finalcialmanagement.activity.RegisterActivity;
+import com.example.financialmanagement.R;
+import com.example.financialmanagement.db.DBHelper;
+import com.example.financialmanagement.activity.LoginActivity;
+import com.example.financialmanagement.activity.RegisterActivity;
 
 
 public class MainActivity extends AppCompatActivity {

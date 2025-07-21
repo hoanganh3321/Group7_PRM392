@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.activity;
+package com.example.financialmanagement.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,8 +15,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.finalcialmanagement.R;
-import com.example.finalcialmanagement.db.DBHelper;
+import com.example.financialmanagement.R;
+import com.example.financialmanagement.db.DBHelper;
 
 public class LoginActivity extends AppCompatActivity {
     private EditText edtUsernameLogin, edtPasswordLogin;

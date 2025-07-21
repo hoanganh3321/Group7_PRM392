@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.notification;
+package com.example.financialmanagement.notification;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

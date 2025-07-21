@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.notification;
+package com.example.financialmanagement.notification;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

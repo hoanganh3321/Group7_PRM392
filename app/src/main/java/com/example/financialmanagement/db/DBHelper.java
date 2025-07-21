@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.db;
+package com.example.financialmanagement.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

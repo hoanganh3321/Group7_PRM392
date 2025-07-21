@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.adapter;
+package com.example.financialmanagement.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.finalcialmanagement.R;
-import com.example.finalcialmanagement.model.Transaction;
-import com.example.finalcialmanagement.tmp.TransactionDisplay;
+import com.example.financialmanagement.R;
+import com.example.financialmanagement.model.Transaction;
+import com.example.financialmanagement.tmp.TransactionDisplay;
 
 import java.util.List;
 
