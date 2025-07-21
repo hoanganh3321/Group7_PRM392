@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.notification;
+package com.example.financialmanagement.notification;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.finalcialmanagement.db.DBHelper;
+import com.example.financialmanagement.db.DBHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement.activity;
+package com.example.financialmanagement.activity;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.finalcialmanagement.R;
-import com.example.finalcialmanagement.db.DBHelper;
+import com.example.financialmanagement.R;
+import com.example.financialmanagement.db.DBHelper;
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText edtUsernameRegister, edtPasswordRegister;

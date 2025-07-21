@@ -1,4 +1,4 @@
-package com.example.finalcialmanagement;
+package com.example.financialmanagement;
 
 import android.content.Context;
 

@@ -1,6 +1,6 @@
-package com.example.finalcialmanagement.tmp;
+package com.example.financialmanagement.tmp;
 
-import com.example.finalcialmanagement.model.Transaction;
+import com.example.financialmanagement.model.Transaction;
 
 public class TransactionDisplay {
     public Transaction transaction;
