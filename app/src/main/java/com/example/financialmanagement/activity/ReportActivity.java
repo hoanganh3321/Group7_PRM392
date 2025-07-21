@@ -93,7 +93,6 @@ public class ReportActivity extends AppCompatActivity {
                         "WHERE w.userId = ?",
                 new String[]{String.valueOf(userId)}
         );
-
         if (cursor != null) {
             while (cursor.moveToNext()) {
                 String dateStr = cursor.getString(0);
