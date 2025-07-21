@@ -23,7 +23,13 @@
             android:name=".activity.RegisterActivity"
             android:exported="false" />
 
-
+        <activity
+            android:name=".activity.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BudgetActivity"
+            android:exported="false" />
+        
         <activity
             android:name=".MainActivity"
             android:exported="true">
