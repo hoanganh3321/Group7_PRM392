@@ -17,7 +17,7 @@ import com.example.financialmanagement.R;
 import com.example.financialmanagement.db.DBHelper;
 import com.example.financialmanagement.activity.LoginActivity;
 import com.example.financialmanagement.activity.RegisterActivity;
-
+import com.example.financialmanagement.notification.NotificationScheduler;
 
 public class MainActivity extends AppCompatActivity {
     private DBHelper dbHelper;
@@ -28,10 +28,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         // Kiểm tra nếu đã đăng nhập thì chuyển sang OverviewActivity
         if (isUserLoggedIn()) {
             // Lên lịch thông báo hàng ngày nếu đã đăng nhập
+            NotificationScheduler.scheduleDailyNotification(this);
 
+            startActivity(new Intent(MainActivity.this, OverviewActivity.class));
             finish();
             return;
         }

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Tổng quan"/>
+    <item
+        android:id="@+id/nav_shorts"
+        android:title="Giao dịch"/>
+    <item
+        android:id="@+id/nav_subs"
+        android:title="Ngân sách" />
+    <item
+        android:id="@+id/nav_library"
+        android:title="Tài khoản" />
+</menu>
