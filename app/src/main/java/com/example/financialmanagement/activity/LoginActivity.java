@@ -74,7 +74,8 @@ public class LoginActivity extends AppCompatActivity {
                 sharedPreferences.edit().putInt("userId", userId).apply();
 
                 Toast.makeText(this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
-
+                startActivity(new Intent(this, OverviewActivity.class));
+                finish();
                 finish();
             } else {
                 Toast.makeText(this, "Sai tên đăng nhập hoặc mật khẩu!", Toast.LENGTH_SHORT).show();
