@@ -1,4 +1,4 @@
-package com.example.financialmanagement;
+package com.example.financialmanagement.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,11 +14,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.financialmanagement.R;
-import com.example.financialmanagement.activity.OverviewActivity;
 import com.example.financialmanagement.db.DBHelper;
-import com.example.financialmanagement.activity.LoginActivity;
-import com.example.financialmanagement.activity.RegisterActivity;
+
 import com.example.financialmanagement.notification.NotificationScheduler;
+
 
 public class MainActivity extends AppCompatActivity {
     private DBHelper dbHelper;
@@ -28,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         // Kiểm tra nếu đã đăng nhập thì chuyển sang OverviewActivity
         if (isUserLoggedIn()) {

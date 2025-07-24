@@ -18,7 +18,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.financialmanagement.R;
 import com.example.financialmanagement.db.DBHelper;
-import com.example.financialmanagement.MainActivity;
 
 public class AccountActivity extends AppCompatActivity {
 
