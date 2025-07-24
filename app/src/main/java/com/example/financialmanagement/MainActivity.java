@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.financialmanagement.R;
+import com.example.financialmanagement.activity.OverviewActivity;
 import com.example.financialmanagement.db.DBHelper;
 import com.example.financialmanagement.activity.LoginActivity;
 import com.example.financialmanagement.activity.RegisterActivity;
